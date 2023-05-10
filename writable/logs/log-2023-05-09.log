@@ -1,0 +1,160 @@
+CRITICAL - 2023-05-09 12:46:47 --> Invalid file: "friend_requests.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('friend_requests.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('friend_requests', [], true)
+ 3 APPPATH\Controllers\UserController.php(152): view('friend_requests', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->friendRequests()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 12:47:30 --> Undefined property: stdClass::$username
+in APPPATH\Views\friend_request.php on line 210.
+ 1 APPPATH\Views\friend_request.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\xampp\\htdocs\\Chat_App\\app\\Views\\friend_request.php', 210)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Chat_App\\app\\Views\\friend_request.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('friend_request', [], true)
+ 5 APPPATH\Controllers\UserController.php(152): view('friend_request', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->friendRequests()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 12:47:33 --> Undefined property: stdClass::$username
+in APPPATH\Views\friend_request.php on line 210.
+ 1 APPPATH\Views\friend_request.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\xampp\\htdocs\\Chat_App\\app\\Views\\friend_request.php', 210)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Chat_App\\app\\Views\\friend_request.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('friend_request', [], true)
+ 5 APPPATH\Controllers\UserController.php(152): view('friend_request', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->friendRequests()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:02:42 --> syntax error, unexpected single-quoted string "; ");
+", expecting "->" or "?->" or "{" or "["
+in APPPATH\Models\user.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Chat_App\\app\\Models\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH\Controllers\UserController.php(146): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->friendRequests()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:02:43 --> syntax error, unexpected single-quoted string "; ");
+", expecting "->" or "?->" or "{" or "["
+in APPPATH\Models\user.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Chat_App\\app\\Models\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH\Controllers\UserController.php(146): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->friendRequests()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:03:59 --> syntax error, unexpected single-quoted string "; ");
+", expecting "->" or "?->" or "{" or "["
+in APPPATH\Models\user.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Chat_App\\app\\Models\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH\Controllers\UserController.php(146): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->friendRequests()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:04:46 --> syntax error, unexpected single-quoted string "; ");
+", expecting "->" or "?->" or "{" or "["
+in APPPATH\Models\user.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Chat_App\\app\\Models\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH\Controllers\UserController.php(146): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->friendRequests()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:04:58 --> syntax error, unexpected single-quoted string "; ");
+", expecting "->" or "?->" or "{" or "["
+in APPPATH\Models\user.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Chat_App\\app\\Models\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH\Controllers\UserController.php(146): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->friendRequests()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:05:40 --> syntax error, unexpected single-quoted string "; ");
+", expecting "->" or "?->" or "{" or "["
+in APPPATH\Models\user.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Chat_App\\app\\Models\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH\Controllers\UserController.php(60): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:07:07 --> syntax error, unexpected single-quoted string "; ");
+", expecting "->" or "?->" or "{" or "["
+in APPPATH\Models\user.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Chat_App\\app\\Models\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH\Controllers\UserController.php(60): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:08:15 --> syntax error, unexpected single-quoted string "; ");
+", expecting "->" or "?->" or "{" or "["
+in APPPATH\Models\user.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Chat_App\\app\\Models\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH\Controllers\UserController.php(60): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:08:26 --> syntax error, unexpected single-quoted string "; ");
+", expecting "->" or "?->" or "{" or "["
+in APPPATH\Models\user.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Chat_App\\app\\Models\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH\Controllers\UserController.php(60): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:10:03 --> syntax error, unexpected single-quoted string "; ");
+", expecting "->" or "?->" or "{" or "["
+in APPPATH\Models\user.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Chat_App\\app\\Models\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH\Controllers\UserController.php(60): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:15:28 --> Undefined variable $users
+in APPPATH\Controllers\UserController.php on line 164.
+ 1 APPPATH\Controllers\UserController.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\Chat_App\\app\\Controllers\\UserController.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->acceptRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
+CRITICAL - 2023-05-09 13:17:08 --> Call to a member function getResult() on bool
+in APPPATH\Models\user.php on line 53.
+ 1 APPPATH\Controllers\UserController.php(162): App\Models\User->acceptRequests('test3', 'santhosh')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->acceptRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Chat_App\\public\\index.php')
